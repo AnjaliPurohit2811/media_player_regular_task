@@ -41,7 +41,7 @@ class SliderScreen extends StatelessWidget {
                             child: Container(
                               height: 530,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20),
+                                borderRadius: BorderRadius.circular(10),
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
                                   image: AssetImage(item['img']),
